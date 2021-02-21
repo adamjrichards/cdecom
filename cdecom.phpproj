@@ -3,16 +3,33 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Name>cdecom</Name>
     <ProjectGuid>{34c90dc2-2d87-4dbe-b381-ab57d18d859a}</ProjectGuid>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace>cdecom</RootNamespace>
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>8.0</RuntimeVersion>
+    <SaveServerSettingsInUserFile>true</SaveServerSettingsInUserFile>
+    <WebRoot>C:\GitHub\Agence_Lison\cdecom</WebRoot>
+    <EnvName>Custom</EnvName>
+    <PHPDevHostName>cdecom</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <CustomServerUrl>http://cdecom/</CustomServerUrl>
+    <CustomXdebugPort>9000</CustomXdebugPort>
+    <PublishEvent>None</PublishEvent>
+    <DebugMappingMethod>Manual</DebugMappingMethod>
+    <DebugPathMapping>/black_willow;C:\GitHub\Black_Willow\black_willow
+/housekeeping;</DebugPathMapping>
+    <DBGpProxyEnabled>false</DBGpProxyEnabled>
+    <DBGpProxyPort>9001</DBGpProxyPort>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Output window' ">
+    <OutputPath>bin\Output window\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="cde_assets\All media includes and downloads go here - no exposed files" />
@@ -113,6 +130,7 @@
     <Folder Include="cde_json" />
     <Folder Include="cde_static_pages" />
     <Folder Include="cde_svg" />
+    <Folder Include="Properties\" />
     <Folder Include="_notes" />
     <Folder Include="_obsolete" />
     <Folder Include="_resources" />

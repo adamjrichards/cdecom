@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <StartAction>CurrentPage</StartAction>
+    <RuntimePath>C:\Apache24\php\php.exe</RuntimePath>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <EnvName>PHPDev</EnvName>
+    <CustomServerUrl>http://cdecom/</CustomServerUrl>
+    <CustomXdebugPort>9000</CustomXdebugPort>
+    <PublishEvent>None</PublishEvent>
+    <PublishBeforeDebugProfile />
+    <DebugMappingMethod>Manual</DebugMappingMethod>
+    <DebugPathMapping>/black_willow;C:\GitHub\Black_Willow\black_willow
+/housekeeping;</DebugPathMapping>
+    <DBGpProxyEnabled>false</DBGpProxyEnabled>
+    <DBGpProxyHost />
+    <DBGpProxyPort>9001</DBGpProxyPort>
+    <PHPDevHostName>cdecom</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <PHPDevRouting />
+  </PropertyGroup>
+</Project>
