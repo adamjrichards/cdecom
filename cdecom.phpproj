@@ -104,7 +104,9 @@
     <Compile Include="Empty BW site definition.ste" />
     <Compile Include="favicon.ico" />
     <Compile Include="index.html" />
-    <Compile Include="index.php" />
+    <Compile Include="index.php">
+      <Link>allcom_index.php</Link>
+    </Compile>
     <Compile Include="README.md" />
   </ItemGroup>
   <ItemGroup>
