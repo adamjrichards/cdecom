@@ -1,0 +1,48 @@
+##########################################################################################
+#    The BW system constants are loaded from this file.  The environment variables       #
+#    are converted to $_SERVER variables, and then defined as constants when Black       #
+#    Willow loads. This avoids the need to look up the locations of files or remember    #
+#    variable.                                                                           #
+##########################################################################################
+
+# Replace the .htaccess file if needed
+# SETENV 	"MY_BW_INITIALIZER" "${DOCROOT}/Agence_Lison/.htaccess""
+
+# Folder path constants
+
+SetEnv "MY_PROJECT_ROOT" "${DOCROOT}"
+SetEnv "MY_PROJECT_PATH" "${DOCROOT}"
+SetEnv "MY_PROJECT_ASSETS" "${DOCROOT}/Agence_Lison/al_assets"
+SetEnv "MY_PROJECT_BLACK_BOXES" "${DOCROOT}/Agence_Lison/al_black_boxes"
+SetEnv "MY_PROJECT_CONTAINERS" "${DOCROOT}/Agence_Lison/al_containers"
+SetEnv "MY_PROJECT_COMPONENTS" "${DOCROOT}/Agence_Lison/al_components"
+SetEnv "MY_PROJECT_CONTENT" "${DOCROOT}/Agence_Lison/al_content"
+SetEnv "MY_PROJECT_CSS" "${DOCROOT}/Agence_Lison/al_css"
+SetEnv "MY_PROJECT_ERREX" "${DOCROOT}/Agence_Lison/al_errex"
+SetEnv "MY_PROJECT_FACTORIES" "${DOCROOT}/Agence_Lison/al_factories"
+SetEnv "MY_PROJECT_INIT" "${DOCROOT}/Agence_Lison/al_init"
+SetEnv "MY_PROJECT_JS" "${DOCROOT}/Agence_Lison/al_js"
+SetEnv "MY_PROJECT_JSON" "${DOCROOT}/Agence_Lison/al_json"
+SetEnv "MY_PROJECT_STATIC_PAGES" "${DOCROOT}/Agence_Lison/al_static_pages"
+SetEnv "MY_PROJECT_SYSTEM" "${DOCROOT}/Agence_Lison/al_system"
+
+# Project meta constants
+
+SetEnv "MY_PROJECT_FRIENDLY_NAME" "Agence Lison Lescarbeau"
+SetEnv "MY_PROJECT_HANDLE" "MY_PROJECT"
+SetEnv "MY_PROJECT_ALIAS" "MY_ALLCOM"
+SetEnv "MY_PROJECT_PREFIX" "al"
+SetEnv "MY_PROJECT_OBJECT_PREFIX" "AL"
+SetEnv "MY_PROJECT_WEB_ROOT" "/Agence_Lison/allcom"
+SetEnv "MY_PROJECT_DEFAULT_URL" "http://allcom"
+
+#  File path constants
+
+SetEnv "MY_PROJECT_INDEX_PAGE" "${DOCROOT}/Agence_Lison/allcom_index.php"
+SetEnv "MY_PROJECT_INIT_FILE" "${DOCROOT}/Agence_Lison/al_json/al_init.json"
+SetEnv "MY_PROJECT_META_FILE" "${DOCROOT}/Agence_Lison/al_json/al_meta.json"
+SetEnv "MY_PROJECT_ERREX_FILE" "${DOCROOT}/Agence_Lison/al_json/al_errex.json"
+SetEnv "MY_PROJECT_CONSTANTS_FILE" "${DOCROOT}/Agence_Lison/al_json/al_constants.json"
+SetEnv "MY_PROJECT_CONTENTS_MAP_FILE" "${DOCROOT}/Agence_Lison/al_json/al_content_map.json"
+SetEnv "MY_PROJECT_FRAMEWORK_DEFAULTS_FILE" "${DOCROOT}/Agence_Lison/al_json/al_framework_defaults.json"
+SetEnv "MY_PROJECT_MANIFEST" "${DOCROOT}/Agence_Lison/allcom.manifest"
