@@ -2,14 +2,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Name>cdecom</Name>
-    <ProjectGuid>{34c90dc2-2d87-4dbe-b381-ab57d18d859a}</ProjectGuid>
+    <ProjectGuid>{9d975716-eb4b-4fd6-bfde-a372ddfecf2a}</ProjectGuid>
     <RootNamespace>cdecom</RootNamespace>
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <Runtime>PHP</Runtime>
     <RuntimeVersion>8.0</RuntimeVersion>
     <SaveServerSettingsInUserFile>true</SaveServerSettingsInUserFile>
-    <WebRoot>C:\GitHub\Agence_Lison\cdecom</WebRoot>
+    <WebRoot>C:\Repositories\Agence_Lison\cdecom</WebRoot>
     <EnvName>Custom</EnvName>
     <PHPDevHostName>cdecom</PHPDevHostName>
     <PHPDevAutoPort>true</PHPDevAutoPort>
