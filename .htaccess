@@ -1,0 +1,48 @@
+###########################################################################################
+#    The BW template site constants are loaded from this file.  The environment variables	#
+#    are converted to $_SERVER variables, and then defined as constants when this site	#
+#    Willow loads. This avoids the need to look up the locations of files or remember	#
+#    variables.															#
+###########################################################################################
+
+Define WEBROOT "C:/Users/Adam/OneDrive - Raingarden/GitHub"
+
+# /Agence_Lison/chateau_dencre/.htaccess
+
+# Folder path constants
+
+SetEnv "MY_PROJECT_ROOT" "${WEBROOT}/Agence_Lison/chateau_dencre"
+SetEnv "MY_PROJECT_PATH" "${WEBROOT}/Agence_Lison/chateau_dencre"
+SetEnv "MY_PROJECT_ASSETS" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_assets"
+SetEnv "MY_PROJECT_BLACK_BOXES" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_black_boxes"
+SetEnv "MY_PROJECT_CONTAINERS" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_containers"
+SetEnv "MY_PROJECT_COMPONENTS" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_components"
+SetEnv "MY_PROJECT_CONTENT" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_content"
+SetEnv "MY_PROJECT_CSS" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_css"
+SetEnv "MY_PROJECT_ERREX" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_errex"
+SetEnv "MY_PROJECT_JS" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_js"
+SetEnv "MY_PROJECT_JSON" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_json"
+SetEnv "MY_PROJECT_STATIC_PAGES" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_static_pages"
+SetEnv "MY_PROJECT_SYSTEM" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_system"
+
+
+# Project meta constants
+
+SetEnv "MY_PROJECT_FRIENDLY_NAME" "Chateau d\'encre"
+SetEnv "MY_PROJECT_HANDLE" "MY_PROJECT"
+SetEnv "MY_PROJECT_ALIAS" "MY_CDECOM"
+SetEnv "MY_PROJECT_PREFIX" "cde"
+SetEnv "MY_PROJECT_OBJECT_PREFIX" "CDE"
+SetEnv "MY_PROJECT_WEB_ROOT" "/Agence_Lison/chateau_dencre"
+SetEnv "MY_PROJECT_DEFAULT_URL" "http://chateau_dencre/"
+
+#  File path constants
+
+SetEnv "MY_PROJECT_INDEX_PAGE" "${WEBROOT}/Agence_Lison/chateau_dencre/index.php"
+SetEnv "MY_PROJECT_INIT_FILE" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_json/cde_init.json"
+SetEnv "MY_PROJECT_META_FILE" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_json/cde_meta.json"
+SetEnv "MY_PROJECT_ERREX_FILE" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_json/cde_errex.json"
+SetEnv "MY_PROJECT_CONSTANTS_FILE" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_json/cde_constants.json"
+SetEnv "MY_PROJECT_CONTENTS_MAP_FILE" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_json/cde_content_map.json"
+SetEnv "MY_PROJECT_FRAMEWORK_DEFAULTS_FILE" "${WEBROOT}/Agence_Lison/chateau_dencre/cde_json/cde_framework_defaults.json"
+SetEnv "MY_PROJECT_MANIFEST" "${WEBROOT}/Agence_Lison/chateau_dencre/chateau_dencre.manifest"

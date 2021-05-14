@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Name>cdecom</Name>
-    <ProjectGuid>{e3655411-6e4e-412b-a146-a0ec8851a2a4}</ProjectGuid>
+    <ProjectGuid>{b7f17bfd-4643-4178-b3d3-2b00437c5a31}</ProjectGuid>
     <RootNamespace>
     </RootNamespace>
     <OutputType>Library</OutputType>
@@ -14,5 +14,135 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="cde_assets\All media includes and downloads go here - no exposed files" />
+    <Compile Include="cde_black_boxes\bwt_banner\BWT_Banner.php" />
+    <Compile Include="cde_black_boxes\bwt_banner\bwt_willow_banner_4.6_x1250y150.png" />
+    <Compile Include="cde_black_boxes\bwt_banner\bwt_willow_banner_4.6_x2500y300.png" />
+    <Compile Include="cde_black_boxes\bwt_banner\bwt_willow_banner_4.6_x5000y600.png" />
+    <Compile Include="cde_black_boxes\bwt_banner\bwt_willow_banner_4.6_x750y90.png" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_builders_hub.php" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_builders_hub.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_builders_hub_meta.json" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_builders_hub_meta.txt" />
+    <Compile Include="cde_black_boxes\bwt_hub\BWT_Hub.php" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hubs.css" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_1.1.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_1.1_x1500y1000.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_background_group_1.1_x1500y1000.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_background_group_1.2.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_ornament_group_1.4_x1000y1000.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_ray_group_1.3_x1500y1000.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_ray_group_1.4_x2000y1000 copy.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_ray_group_1.4_x2000y1000.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_ring_group_1.1_x1000y1000.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_hub_shapes.svg" />
+    <Compile Include="cde_black_boxes\bwt_hub\bwt_researchers_hub_meta.json" />
+    <Compile Include="cde_black_boxes\bwt_logo\BWT_Logo.php" />
+    <Compile Include="cde_black_boxes\bwt_logo\bwt_willow_4.3_x2000y1200.jpg" />
+    <Compile Include="cde_black_boxes\bwt_logo\bwt_willow_logo_4.5_x2000y1250.png" />
+    <Compile Include="cde_black_boxes\bwt_splash\BWT_Splash.php" />
+    <Compile Include="cde_black_boxes\bwt_splash\bwt_willow_4.3_x1000y600.jpg" />
+    <Compile Include="cde_black_boxes\bwt_splash\bwt_willow_4.3_x1500y900.jpg" />
+    <Compile Include="cde_black_boxes\bwt_splash\bwt_willow_4.3_x2000y1200.jpg" />
+    <Compile Include="cde_black_boxes\bwt_splash\bwt_willow_4.3_x500y300.jpg" />
+    <Compile Include="cde_black_boxes\Active components which live in a single folder, such as maps or widgets go here" />
+    <Compile Include="cde_components\Active component files, such as sidebars or footers, etc go here" />
+    <Compile Include="cde_components\CDEActive component files, such as sidebars or footers, etc. go here" />
+    <Compile Include="cde_components\cde_banner.php" />
+    <Compile Include="cde_components\cde_left_sidebar_nav.php" />
+    <Compile Include="cde_containers\CDEAside_Tag.php" />
+    <Compile Include="cde_containers\CDEBody_Tag.php" />
+    <Compile Include="cde_containers\CDEDiv_Tag.php" />
+    <Compile Include="cde_containers\CDEFooter_Tag.php" />
+    <Compile Include="cde_containers\CDEHeader_Tag.php" />
+    <Compile Include="cde_containers\CDEHead_Tag.php" />
+    <Compile Include="cde_containers\CDEHTML_Tag.php" />
+    <Compile Include="cde_containers\CDEList_Tag.php" />
+    <Compile Include="cde_containers\CDEMain_Tag.php" />
+    <Compile Include="cde_containers\CDEMenu_Tag.php" />
+    <Compile Include="cde_containers\CDENav_Tag.php" />
+    <Compile Include="cde_containers\CDESection_Tag.php" />
+    <Compile Include="cde_containers\CDE_Aside_Tag.php" />
+    <Compile Include="cde_containers\CDE_Body_Tag.php" />
+    <Compile Include="cde_containers\CDE_Div_Tag.php" />
+    <Compile Include="cde_containers\CDE_Footer_Tag.php" />
+    <Compile Include="cde_containers\CDE_Header_Tag.php" />
+    <Compile Include="cde_containers\CDE_Head_Tag.php" />
+    <Compile Include="cde_containers\CDE_HTML_Tag.php" />
+    <Compile Include="cde_containers\CDE_List_Tag.php" />
+    <Compile Include="cde_containers\CDE_Main_Tag.php" />
+    <Compile Include="cde_containers\CDE_Menu_Tag.php" />
+    <Compile Include="cde_containers\CDE_Nav_Tag.php" />
+    <Compile Include="cde_containers\CDE_Section_Tag.php" />
+    <Compile Include="cde_containers\Containers are HTML tags used for layout or framework, extending the BW container classes" />
+    <Compile Include="cde_content\Active files such as articles, blog pages, lists, and menus go here" />
+    <Compile Include="cde_css\Active css goes here - other languages should have their own folders" />
+    <Compile Include="cde_css\cdemaster.css" />
+    <Compile Include="cde_css\cde_master.css" />
+    <Compile Include="cde_data\CDEDatabase connections, text sources, spreadsheets, or setup files such as manifests, go here.  No exposed codepages" />
+    <Compile Include="cde_data\Database connections, text sources, spreadsheets, or setup files such as manifests, go here - no exposed codepages" />
+    <Compile Include="cde_js\Active JavaScript and libraries go here - other languages should have their own folders" />
+    <Compile Include="cde_js\cdeonload.js" />
+    <Compile Include="cde_js\cde_onload.js" />
+    <Compile Include="cde_json\cdeload_order.json" />
+    <Compile Include="cde_json\cde_load_order.json" />
+    <Compile Include="cde_json\Setup, data, and parameter JSON files go here - XML should have its own folder" />
+    <Compile Include="cde_static_pages\cdeabout_me.php" />
+    <Compile Include="cde_static_pages\cdecontact_me.php" />
+    <Compile Include="cde_static_pages\cdecopyright.php" />
+    <Compile Include="cde_static_pages\cdemeta.php" />
+    <Compile Include="cde_static_pages\cdesmallprint.php" />
+    <Compile Include="cde_static_pages\cde_about_me.php" />
+    <Compile Include="cde_static_pages\cde_contact_me.php" />
+    <Compile Include="cde_static_pages\cde_copyright.php" />
+    <Compile Include="cde_static_pages\cde_meta.php" />
+    <Compile Include="cde_static_pages\cde_smallprint.php" />
+    <Compile Include="cde_static_pages\Pages which don't change, such as copyright, contacts, or smallprint, and which aren't sourced from a database, go here" />
+    <Compile Include="cde_svg\SVG is a vector-image tag-based language for making scalable dynamic artwork - SVG codepages and black boxes go here" />
+    <Compile Include="_notes\dwsync.xml" />
+    <Compile Include="_notes\This folder is used for Dreamweaver synchronization and design notes for collaborators" />
+    <Compile Include="_obsolete\Inactive files kept as backups go here...no exposed pages" />
+    <Compile Include="_resources\Inactive files such as image originals, source code, references, etc go here" />
+    <Compile Include="_testbench\This folder is where you make sure things work before you publish them.  No exposed files" />
+    <Compile Include="_testbench\This folder is where you make sure things work before you publish them...no exposed files" />
+    <Compile Include=".gitattributes" />
+    <Compile Include=".gitignore" />
+    <Compile Include="cdecom.conf" />
+    <Compile Include="cdecom.phpproj" />
+    <Compile Include="cdecom_index.html" />
+    <Compile Include="cdecom_index.php" />
+    <Compile Include="Empty BW site definition.ste" />
+    <Compile Include="favicon.ico" />
+    <Compile Include="index.html" />
+    <Compile Include="index.php" />
+    <Compile Include="LICENSE" />
+    <Compile Include="php_info.php" />
+    <Compile Include="README.md" />
+    <Compile Include="xmlrpc.xml" />
+    <Compile Include="_htaccess" />
+    <Compile Include="_index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cde_assets" />
+    <Folder Include="cde_black_boxes\bwt_banner" />
+    <Folder Include="cde_black_boxes\bwt_hub" />
+    <Folder Include="cde_black_boxes\bwt_logo" />
+    <Folder Include="cde_black_boxes\bwt_splash" />
+    <Folder Include="cde_black_boxes" />
+    <Folder Include="cde_components" />
+    <Folder Include="cde_containers" />
+    <Folder Include="cde_content" />
+    <Folder Include="cde_css" />
+    <Folder Include="cde_data" />
+    <Folder Include="cde_js" />
+    <Folder Include="cde_json" />
+    <Folder Include="cde_static_pages" />
+    <Folder Include="cde_svg" />
+    <Folder Include="Properties\" />
+    <Folder Include="_notes" />
+    <Folder Include="_obsolete" />
+    <Folder Include="_resources" />
+    <Folder Include="_testbench" />
+  </ItemGroup>
 </Project>
